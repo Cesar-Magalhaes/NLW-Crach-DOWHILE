@@ -20,9 +20,10 @@ body {
 }
 
 main {
-  background: url(images/Background.png);
-  width: 375px;
-  height: 812px;
+  background: url(images/Background.png) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 
 .container {
@@ -73,6 +74,14 @@ a {
 
   justify-content: center;
   align-items: center;
+}
+
+li:hover {
+  background-color: darkred;
+}
+
+.hover-git:hover {
+  color: darkred;
 }
 
 p {
